@@ -1,0 +1,26 @@
+resources:
+  - gateway-service.yaml
+  - orders-deployment.yaml
+  - orders-vcapasspringbootproperties-secret.yaml
+  - customers-service.yaml
+  - frontend-latest-imagestream.yaml
+  - frontend-service.yaml
+  - gateway-latest-imagestream.yaml
+  - gateway-vcapasenv-secret.yaml
+  - gateway-vcapasspringbootproperties-secret.yaml
+  - inventory-service.yaml
+  - inventory-vcapasenv-secret.yaml
+  - customers-latest-imagestream.yaml
+  - customers-vcapasenv-secret.yaml
+  - gateway-deployment.yaml
+  - quay-io-imagepullsecret-secret.yaml
+  - inventory-deployment.yaml
+  - inventory-vcapasspringbootproperties-secret.yaml
+  - orders-latest-imagestream.yaml
+  - orders-vcapasenv-secret.yaml
+  - customers-vcapasspringbootproperties-secret.yaml
+  - frontend-deployment.yaml
+  - frontend-vcapasenv-secret.yaml
+  - customers-deployment.yaml
+  - inventory-latest-imagestream.yaml
+  - orders-service.yaml
